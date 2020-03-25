@@ -39,3 +39,6 @@ Simple install procedure:
   % ninja -v -C build		# build xed
   [ Become root if necessary ]
   % ninja install -v  -C  build	# install xed
+
+SCREEN-SHOTS
+![test-screenshot](/screencaptures/xed-screenshot-1.png)
