@@ -41,4 +41,4 @@ Simple install procedure:
   % ninja install -v  -C  build	# install xed
 
 SCREEN-SHOTS
-![test-screenshot](/screencaptures/xed-screenshot-1.png)
+![test-screenshot](/screencaptures/xed-screenshot-1.png?raw=true)
