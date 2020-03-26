@@ -1,5 +1,4 @@
-General Information
-===================
+# Linux Mint Xed
 
 xed is a small and lightweight text editor.
 
@@ -27,18 +26,21 @@ Some of the plugins, packaged and installed with xed include, among others:
     * Insert Date/Time
     * Tag list
 
-xed is released under the GNU General Public License (GPL) version 2, see
-the file 'COPYING' for more information.
 
 Installation
 ============
 
 Simple install procedure:
 
-  % meson . build				# run the `configure' script
-  % ninja -v -C build		# build xed
-  [ Become root if necessary ]
-  % ninja install -v  -C  build	# install xed
+  1. run the 'configure' script
+  - **meson . build**
+  2. build xed
+  - **ninja -v -C build**
+  3. install xed *Become root if necessary*
+  - **ninja install -v  -C  build**
 
 SCREEN-SHOTS
 ![test-screenshot](/screencaptures/xed-screenshot-1.png?raw=true)
+
+> xed is released under the GNU General Public License (GPL) version 2, see
+> the file 'COPYING' for more information.
