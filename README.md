@@ -27,10 +27,7 @@ Some of the plugins, packaged and installed with xed include, among others:
     * Tag list
 
 
-Installation
-============
-
-Simple install procedure:
+## Installation
 
   1. run the 'configure' script
   - **meson . build**
@@ -39,8 +36,25 @@ Simple install procedure:
   3. install xed *Become root if necessary*
   - **ninja install -v  -C  build**
 
-SCREEN-SHOTS
-![test-screenshot](/screencaptures/xed-screenshot-1.png?raw=true)
+### Xed look and feel
+
+##### Classic Mode
+![classic-screenshot](/screencaptures/classic_screencapture.png?raw=true)
+
+##### Theme selections
+![theme-screenshot](/screencaptures/theme_screencapture.png?raw=true)
+
+##### Search and Replace feature
+![search-replace-screenshot](/screencaptures/search_replace_screencapture.png?raw=true)
+
+##### Select from several languages in Highlight syntax mode
+![highlightmode-screenshot](/screencaptures/highlightmode_screencapture.png?raw=true)
+
+##### Xed Shortcuts
+![shortcuts-1-screenshot](/screencaptures/shortcuts_1_screencapture.png?raw=true)
+![shortcuts-2-screenshot](/screencaptures/shortcuts_2_screencapture.png?raw=true)
+
+
 
 > xed is released under the GNU General Public License (GPL) version 2, see
 > the file 'COPYING' for more information.
