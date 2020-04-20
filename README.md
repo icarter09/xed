@@ -34,7 +34,7 @@ Some of the plugins, packaged and installed with xed include, among others:
 ## Installation
 
     1. run the 'configure' script
-    - **meson --prefix=/usr build **
+    - **meson --prefix=/usr build**
     2. build xed
     - **ninja -v -C build**
     3. install xed *Become root if necessary*
