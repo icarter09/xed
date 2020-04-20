@@ -38,15 +38,16 @@ Some of the plugins, packaged and installed with xed include, among others:
       # meson --prefix=/usr build
     2. build xed
       # ninja -v -C build
-    3. install xed  **Become root if necessary**
-      # ninja install -v -C build
+    3. install xed
+      # sudo ninja install -v -C build
 
-    # Build Instructions for Debian-based distros
+    ** Build Instructions for Debian-based distros **
     1. run "dpkg-buildpackage" from the xed base directory
     2. cd ..
-    3. run "dpkg -i *.deb  **Become root if necessary**
-    4. From then, any new changes can be applied by running **Become root if necessary**
-      # ninja -C debian/build install 
+    3. run 
+      # sudo dpkg -i *.deb
+    4. From then, any new changes can be applied by running
+      # sudo ninja -C debian/build install 
 ```
 
 ### Xed look and feel
